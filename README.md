@@ -39,7 +39,9 @@ final class ViewController: UIViewController, UITableViewDataSource {
     }
     
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
-        guard let tableView = tableView as? DequeableTableView else { fatalError() }
+        guard let tableView = tableView as? DequeableTableView else { 
+            fatalError("Ooops. Missed a step.")
+        }
         return cell(in: tableView, at: indexPath)
     }
     
