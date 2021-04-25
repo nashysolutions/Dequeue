@@ -1,4 +1,4 @@
-# Dequeue
+# This repository is no longer maintained
 
 A wrapper for UI elements that dequeue cells. Cells are dequeued by their corresponding type.
 
